@@ -200,7 +200,7 @@ npm run dev
 DB_HOST=localhost
 DB_USER=postgres
 DB_PASS=sua_senha
-DB_NAME=onebitflix
+DB_NAME=onebitflix_development
 DB_PORT=5432
 JWT_SECRET=seu_jwt_secret
 ```
