@@ -3,14 +3,37 @@
 Este projeto é um **clone educacional** de uma plataforma de vídeos estilo Netflix, desenvolvido **do zero** como parte dos meus estudos em desenvolvimento full stack.
 
 📚 O projeto foi construído com base em um curso da **OneBitCode**, onde eu **não clonei nenhum repositório**: reescrevi cada parte manualmente para reforçar o aprendizado.
+Pagina Home
 
 ![home](https://github.com/user-attachments/assets/4fa4f679-c2c2-4446-8508-461fb111fe5a)
+
+Pagina Profile
+
 ![profile](https://github.com/user-attachments/assets/d5cf8526-aa72-41f3-b182-aecbd9039c80)
+
+Pagina Curso
+
 ![paginaCurso](https://github.com/user-attachments/assets/71c4a111-007a-426b-b8d4-046ae9974da4)
+
+pagina Episódio
+
 ![paginaEpisodio](https://github.com/user-attachments/assets/d3f63a64-a802-45b6-9238-d0359fafe439)
+
+Pagina Login
+
 ![Login](https://github.com/user-attachments/assets/abf5ec68-6f4f-42cb-968c-4ce2c0c134c2)
+
+Pagina Registro de Usuario
+
 ![registroUsuario](https://github.com/user-attachments/assets/9c393a9e-4b42-44a5-851e-2f1c3c806baf)
+
+Pagina Inicial
+
 ![PaginaInicial](https://github.com/user-attachments/assets/d0d8ccea-8d8e-45a2-a70f-8d222757506c)
+
+Painel Administrativo
+
+![painelAdmin](https://github.com/user-attachments/assets/4c37b1b5-726f-43c4-95cc-58e54354ac5c)
 
 
 ---
