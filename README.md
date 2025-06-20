@@ -168,15 +168,15 @@ onebitflix/
 
 ---
 
-## 🚀 Como rodar o projeto
+ 🚀 Como rodar o projeto
 
-### Pré-requisitos
+ Pré-requisitos
 
 - Node.js (versão 16 ou superior)
 - PostgreSQL
 - npm ou yarn
 
-### 1. Clone o repositório
+ 1. Clone o repositório
 
 ```bash
 git clone https://github.com/mauriciodalligna/onebitflix.git
@@ -246,7 +246,23 @@ JWT_SECRET=seu_jwt_secret
 NEXT_PUBLIC_BASEURL=http://localhost:3000
 ```
 
----
+
+## 🛠️ Gerenciamento de Conteúdo com AdminJS
+
+O projeto conta com um painel administrativo completo via **AdminJS**, acessível em:
+
+🔗 http://localhost:3000/admin
+
+### ✏️ Editar vídeos, imagens e cursos
+
+Você pode criar, editar ou excluir conteúdos diretamente pelo painel administrativo:
+
+- 📺 Vídeos – Faça upload de novos episódios, altere títulos ou substitua os arquivos de vídeo
+- 🖼️ Imagens – Altere as capas dos cursos com novas thumbnails personalizadas
+- 📚 Cursos – Gerencie categorias, descrições, destaques e organização geral
+
+> As alterações feitas no AdminJS refletem automaticamente na interface do usuário (frontend).
+
 
 ## 📱 Funcionalidades Demonstradas
 
