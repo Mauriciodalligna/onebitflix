@@ -1,0 +1,102 @@
+@import "../../../../styles/colors.module.scss";
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+
+.card {
+  width: 340px;
+  height: 280px;
+  border-radius: 8px;
+  padding: 14px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.3s;
+  cursor: pointer;
+
+  .cardTitle {
+    transition: 0.3s;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+    color: $lightGray;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+    .cardTitle {
+      font-size: 18px;
+      margin-left: 8px;
+    }
+  }
+}
+
+.cards1 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgFrontend.png");
+}
+
+.cards2 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgBackend.png");
+}
+
+.cards3 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgMobile.png");
+}
+
+.cards4 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgGit.png");
+}
+
+.cards5 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgProjects.png");
+}
+
+.cards6 {
+  @extend .card;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("/homeNoAuth/imgCareer.png");
+}
